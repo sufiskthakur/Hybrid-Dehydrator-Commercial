@@ -1,0 +1,19 @@
+# Commercial-Scale Hybrid Dehydrator Specifications (50 kg+ Capacity)
+
+## Overview
+This document outlines the commercial-scale architectural upgrades for the open-source hybrid food dehydrator. Designed for rural agribusinesses, farmer producer organizations (FPOs), and micro-processing units, this model scales capacity to 50 kg+ per batch while maintaining low operating costs and local manufacturability.
+
+## Key Architectural Upgrades
+1. **Cabinet Construction:** Upgraded from marine plywood to 25mm–50mm Polyurethane Foam (PUF) insulated sandwich panels to maximize thermal retention and minimize energy loss.
+2. **Thermal Core (PTC Heaters):** Replaces standard silicone heating pads with self-regulating Positive Temperature Coefficient (PTC) ceramic air heaters. These prevent thermal runaway and automatically adjust power draw based on ambient temperature.
+3. **Forced Air Convection:** Uses industrial-grade 12V/24V DC centrifugal blowers or high-static pressure inline duct fans to maintain uniform airflow across deep, multi-tier tray racks.
+4. **Batch Handling:** Utilizes a removable stainless steel rolling trolley with perforated mesh trays to enable rapid loading and unloading of heavy produce volumes.
+
+## Commercial Bill of Materials (BOM) Excerpt
+| Component | Specification | Function |
+| :--- | :--- | :--- |
+| **Heating Elements** | 12V/24V Fan-Integrated PTC Air Heater (200W–500W) | Self-limiting, safe thermal generation |
+| **Air Circulation** | High-Static Pressure DC Blower | Cross-flow forced convection across deep trays |
+| **Chamber Insulation** | 25mm–50mm PUF Sandwich Panels | Boundary heat retention |
+| **Tray Trolley** | Custom Stainless Steel Mesh Rack | Bulk batch handling |
+| **Controller** | Heavy-duty Digital Thermostat / PID with SSR | Precise thermal management |
